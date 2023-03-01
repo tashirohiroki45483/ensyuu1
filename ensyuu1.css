@@ -1,0 +1,103 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+header{
+  height: 50px;
+  background-color: #ff9a4b
+}
+
+.box-list{
+  padding: 50px;
+  width: 960px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.box1{
+  width: 300px;
+  background-color: #eeeeee;
+  padding: 10px;
+  position: relative;
+  margin-right: 30px;
+}
+
+.box2{
+  width: 300px;
+  background-color: #eeeeee;
+  padding: 10px;
+  position: relative;
+  margin-right: 30px;
+}
+
+.box3{
+  width: 300px;
+  background-color: #eeeeee;
+  padding: 10px;
+  position: relative;
+}
+
+.box-image1{
+  height: 150px;
+  background-image: url(img/flow01.png);
+  background-size: cover;
+}
+
+.box-image2{
+  height: 150px;
+  background-image: url(img/flow02.png);
+  background-size: cover;
+}
+
+.box-image3{
+  height: 150px;
+  background-image: url(img/flow03.png);
+  background-size: cover;
+}
+
+.step{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #ff9a4b;
+  color: #ffffff;
+}
+
+h3{
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+footer{
+  height: 50px;
+  background-color: #aaaaaa;
+}
+
+@media screen and (max-width: 768px){
+
+  .box-list{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  }
+
+  .box1{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .box2{
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  .box3{
+    width: 90%;
+  }
+
+}
